@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+   
+    
+    <link rel="stylesheet" type="text/css" href="fonts/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="css/table.css" />
+    <link rel="stylesheet" type="text/css" href="css/modal.css" />
+   
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <link rel="stylesheet" href="fonts/style.css">
+     <script src="js/jquery.min.js"></script>
+    
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"> <span class="icon-menu"></span> Menu</a>
+        </div>
+            
+        <nav>
+            <ul>
+                <li><a href="#"> <span   class="icon-home" ></span> Inicio</a></li>
+                <li><a href="pantalla2.html"> <span class="icon-calendar " ></span> Resultados</a></li>
+                <li><a href="pantalla1.html"> <span class="icon-table" ></span> Teams</a></li>
+                <li id="logOut"><a href="index.html"> <span class="icon-exit" ></span> Cerrar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="Tabla">
+        <table  id="mitabla" class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th >DateMatch</th>
+                    <th >TeamLocal</th>
+                    <th >Score</th>
+                    <th >TeamVisitor</th>
+                    <th >Score</th>
+                    <th>State</th>
+                </tr>
+              </thead>
+            <tbody id="tabla_general_movimientos">
+            </tbody>
+        </table>
+    </div>
+ 
+</div class= "buttons">
+
+    <script src="js/index.js" ></script>
+    <script> 
+        var modal = document.getElementById('id01'); 
+  
+        window.onclick = function(event) { 
+            if (event.target == modal) { 
+                modal.style.display = "none"; 
+            } 
+        } 
+    </script>
+    <script src="js/matches.js" ></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-image: linear-gradient(to right, #21d4fd, #b721ff);
+    color: white;
+  }
+  
+  
+ 
+
+  .button1 {
+    
+      text-decoration:none;
+      font-weight: 200;
+      font-size: 10px;
+      color:blue;
+      padding-top:10px;
+      padding-bottom:10px;
+      padding-left:20px;
+      padding-right:20px;
+      background-color: transparent;
+      border-width: 1px;
+      border-style: solid;
+      border-color: blue;
+      
+      
+    
+  }
+
+  .button {
+    text-decoration:none;
+    font-weight: 200;
+    font-size: 10px;
+    color:red;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    
+  }
+
+  .button2 {
+    text-decoration:none;
+    font-weight: 200;
+    font-size: 10px;
+    color:green;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: green;
+    
+  }
+
+
